@@ -1,0 +1,14 @@
+.bg-black {
+  background: black;
+}
+
+.left-rounded {
+  border-radius: 50px 0px 0px 50px !important;
+}
+
+.right-rounded {
+  border-radius: 0px 50px 50px 0px !important;
+}
+.text-decoration-underline {
+  text-decoration: underline !important;
+}

@@ -1,0 +1,27 @@
+{
+    "parser": "babel-eslint",
+    "extends": [
+        "colourbox"
+    ],
+    "rules": {
+        "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+        "import/prefer-default-export": 0,
+        "import/extensions": 0,
+        "import/order": 0,
+        "react-hooks/rules-of-hooks": "error",
+        "react-hooks/exhaustive-deps": "warn"
+    },
+    "settings": {
+        "import/resolver": {
+            "webpack": {}
+        }
+    },
+    "plugins": [
+        "json",
+        "react-hooks"
+    ],
+    "globals": {
+        "window": false,
+        "document": false
+    }
+}

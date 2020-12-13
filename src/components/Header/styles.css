@@ -1,0 +1,23 @@
+.mobile-nav div ul {
+  font-size: 12px;
+  list-style: none;
+}
+
+.mobile-nav div ul li a {
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .mobile-nav {
+    display: flex;
+  }
+}
+
+@media (max-width: 578px) {
+  .mobile-nav {
+    display: block;
+  }
+  .mobile-nav div {
+    text-align: left !important;
+  }
+}
